@@ -24,7 +24,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "HTTP.h"
+#include "Http.h"
 #include "Delegates.h"
 #include "Types/AllTypesHeader.h"
 #include "FuncLib/OpenAIFuncLib.h"

@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "ChatGPT/BaseService.h"
-#include "HTTP.h"
+#include "Http.h"
 #include "WorldTimeService.generated.h"
 
 USTRUCT()

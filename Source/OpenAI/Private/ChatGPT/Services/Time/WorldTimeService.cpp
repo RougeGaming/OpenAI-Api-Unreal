@@ -1,7 +1,7 @@
 // OpenAI ServiceSample, Copyright LifeEXE. All Rights Reserved.
 
 #include "ChatGPT/Services/Time/WorldTimeService.h"
-#include "Funclib/JsonFuncLib.h"
+#include "FuncLib/JsonFuncLib.h"
 #include "Logging/StructuredLog.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogWorldTimeService, All, All);

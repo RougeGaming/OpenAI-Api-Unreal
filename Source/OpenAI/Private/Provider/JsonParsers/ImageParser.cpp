@@ -16,7 +16,7 @@ bool ImageParser::DeserializeResponse(const FString& ResponseString, FImageRespo
     ImageResponse.Created = JsonObject->GetNumberField(TEXT("created"));
 
     const auto DataArray = JsonObject->GetArrayField(TEXT("data"));
-    for (const auto DataElem : DataArray)
+    for (const TSharedPtr<FJsonValue>& DataElem : DataArray)
     {
         FImageObject ImageObject;
         if (FJsonObjectConverter::JsonObjectToUStruct(DataElem->AsObject().ToSharedRef(), &ImageObject, 0, 0))

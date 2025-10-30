@@ -3,7 +3,7 @@
 #pragma once
 
 #include "Kismet/BlueprintAsyncActionBase.h"
-#include "HTTP.h"
+#include "Http.h"
 #include "DownloadImageAction.generated.h"
 
 class UTexture2DDynamic;
